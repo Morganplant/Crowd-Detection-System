@@ -10,7 +10,7 @@ The aim of this project is to design and develop a University Crowd Detection Sy
 ##### Example Usage:
 - The project could be used during a pandemic / epidemic, to view the areas with the most people, this can be useful to a user as they can then avoid certain areas, to decrease the risk of infection.
 - The project could be used to indicate whether a room / area is full and, which would save time on the part of the user
-- This project could be used to help manage protests.
+- This project could be used to help manage protests and other similar events
 #### Aims:
 1. To create a University Crowd Detection System capable of monitoring and analysing crowed presence and density in university locations.
 4. To optimize resource allocation and space utilization across the university.
