@@ -1,0 +1,62 @@
+ip_address,active_ports,hostname,macaddress,macaddrvendor,likely_os
+192.168.0.1,"['53', '80', '5431', '31337', '49163']",SkyRouter.Home,,,Linux 3.10 - 4.11
+192.168.0.2,['6668'],UNKNOWN,,,Philips Hue Bridge (lwIP stack)
+192.168.0.3,[],UNKNOWN,,,Espressif ESP8266 WiFi system-on-a-chip
+192.168.0.4,['6668'],UNKNOWN,,,Cisco 5300 router (IOS 12.3)
+192.168.0.5,['6668'],wlan0,,,OSRAM Lightify ZigBee gateway
+192.168.0.6,['6668'],,,,Philips Hue Bridge (lwIP stack)
+192.168.0.7,['6668'],,,,OSRAM Lightify ZigBee gateway
+192.168.0.8,['6668'],wlan0,,,Philips Hue Bridge (lwIP stack)
+192.168.0.9,['6668'],UNKNOWN,,,OSRAM Lightify ZigBee gateway
+192.168.0.11,['6668'],UNKNOWN,,,OSRAM Lightify ZigBee gateway
+192.168.0.12,['6668'],wlan0,,,OSRAM Lightify ZigBee gateway
+192.168.0.13,['6668'],UNKNOWN,,,OSRAM Lightify ZigBee gateway
+192.168.0.14,['6668'],,,,OSRAM Lightify ZigBee gateway
+192.168.0.15,[],wiz_8bba4a,,,Cisco 2600 router (IOS 11.3)
+192.168.0.17,"['22', '53', '80', '443']",USG-4G,,,Linux 3.2 - 3.16
+192.168.0.18,[],wiz_8bbd5c,,,Cisco 2600 router (IOS 11.3)
+192.168.0.21,['6668'],host.docker.internal,,,OSRAM Lightify ZigBee gateway
+192.168.0.22,['6668'],wlan0,,,OSRAM Lightify ZigBee gateway
+192.168.0.25,"['80', '1234', '5000', '8008', '8080', '9091', '49153', '49155', '49160']",SKY+HD,,,HP PSC 2400-series Photosmart printer
+192.168.0.29,"['5000', '8008', '8080', '9080', '9091', '49153', '49160']",SKY+HD,,,HP PSC 2400-series Photosmart printer
+192.168.0.31,['22'],vpnsi,,,OpenWrt Designated Driver (Linux 4.4)
+192.168.0.43,"['80', '1050']",PLW1000,,,Linux 2.6.31 - 2.6.35
+192.168.0.49,['6668'],ESP_03C6E2,,,Cisco 2600 router (IOS 11.3)
+192.168.0.51,['6668'],,,,Philips Hue Bridge (lwIP stack v1.4.0)
+192.168.0.52,[],iRobot-ACD430275F274123AC5F1CFB522884EA,,,
+192.168.0.58,['2869'],XBOX-X,,,
+192.168.1.1,"['22', '53', '80', '443']",USG-4G,F0:9F:C2:1E:A4:6B,Ubiquiti Networks,Linux 3.2 - 3.16
+192.168.1.5,[],lwiplpc.FLINTSTONE,A0:BB:3E:90:2F:52,Sandal Plc,DTE Energy Bridge (lwIP stack)
+192.168.1.29,['22'],AP-Study.FLINTSTONE,80:2A:A8:80:13:8C,Ubiquiti Networks,OpenWrt (Linux 3.3)
+192.168.1.30,"['49152', '62078']",,86:E1:C1:58:B8:4E,,Apple macOS 11 (Big Sur) (Darwin 20.6.0)
+192.168.1.83,['22'],SW-SittingRoom.FLINTSTONE,F0:9F:C2:1A:38:F5,Ubiquiti Networks,Linux 2.6.32 - 3.10
+192.168.1.90,[],iRobot-335CB7FFA469466BA500830662658E12.FLINTSTONE,50:14:79:8F:75:34,iRobot,
+192.168.1.98,['22'],SW-Study.FLINTSTONE,FC:EC:DA:43:FA:28,Ubiquiti Networks,Linux 2.6.32 - 3.10
+192.168.1.106,['6668'],JP-ONPREM.FLINTSTONE,FC:67:1F:8A:E6:93,Tuya Smart,Philips Hue Bridge (lwIP stack v1.4.0)
+192.168.1.111,"['135', '139', '445', '5357']",LAPTOP-BL9KBC2H.FLINTSTONE,,,Microsoft Windows 10 1607
+192.168.1.122,['22'],CharlotesiPhone,74:AC:B9:66:DB:05,Ubiquiti Networks,OpenWrt Kamikaze 7.09 (Linux 2.6.22)
+192.168.1.123,['22'],Si-Work-Phone.FLINTSTONE,F0:9F:C2:CF:77:CD,Ubiquiti Networks,Linux 2.6.32 - 3.10
+192.168.1.125,['6668'],TY_WR.FLINTSTONE,18:69:D8:77:D7:47,Tuya Smart,Enlogic PDU (FreeRTOS/lwIP)
+192.168.1.131,['6668'],ESP_0611F6.FLINTSTONE,B4:E6:2D:06:11:F6,Espressif,British Gas GS-Z3 data logger
+192.168.1.137,"['1080', '6543', '8888']",amazon-09661d0d7.FLINTSTONE,38:F7:3D:89:CB:F4,Amazon Technologies,Linux 3.2 - 4.9
+192.168.1.138,['6543'],amazon-2dd185e27.FLINTSTONE,50:DC:E7:2B:69:C6,Amazon Technologies,Linux 3.2 - 4.9
+192.168.1.139,"['1080', '6543', '8888']",amazon-7b59640ce.FLINTSTONE,FC:A6:67:A3:8A:B4,Amazon Technologies,Linux 3.2 - 4.9
+192.168.1.141,"['80', '443', '631', '8080', '9100']",GardenRoom.FLINTSTONE,B0:0C:D1:B1:FD:62,Hewlett Packard,Linux 3.2 - 4.9
+192.168.1.150,"['7000', '8001', '8002', '8080', '9999']",READYNAS1.FLINTSTONE,A0:D0:5B:9A:E3:E1,Samsung Electronics,Linux 4.15 - 5.8
+192.168.1.152,"['135', '139', '445', '3389', '5357', '6789', '8080', '8443']",unifi,3C:97:0E:E9:EA:4F,Wistron InfoComm(Kunshan)Co.,Microsoft Windows 10 1709 - 1909
+192.168.1.155,"['1080', '6543', '8888', '10001']",,08:12:A5:2A:72:4B,Amazon Technologies,Linux 3.2 - 4.9
+192.168.1.165,['6543'],amazon-7efa3a3e9.FLINTSTONE,4C:EF:C0:AD:E8:17,Amazon Technologies,Linux 3.2 - 4.9
+192.168.1.167,['6668'],ESP_5F00A0.FLINTSTONE,84:F3:EB:5F:00:A0,Espressif,British Gas GS-Z3 data logger
+192.168.1.169,['6668'],ESP_4ED49E.FLINTSTONE,B4:E6:2D:4E:D4:9E,Espressif,British Gas GS-Z3 data logger
+192.168.1.175,[],A8E2C1393ED7-mysimplelink.FLINTSTONE,A8:E2:C1:39:3E:D7,Texas Instruments,KCorp KLG-575 WAP
+192.168.1.191,[],Arduino-ENC28j60-99.FLINTSTONE,A4:0E:2B:75:A2:06,Facebook,
+192.168.1.195,['22'],AP-Loft.FLINTSTONE,80:2A:A8:49:13:1B,Ubiquiti Networks,OpenWrt Kamikaze 7.09 (Linux 2.6.22)
+192.168.1.204,['22'],SW-GardenRoom.FLINTSTONE,B4:FB:E4:8A:28:66,Ubiquiti Networks,Linux 2.6.32 - 3.10
+192.168.1.205,['22'],AP-GardenRoom.FLINTSTONE,FC:EC:DA:89:4A:D2,Ubiquiti Networks,OpenWrt Kamikaze 7.09 (Linux 2.6.22)
+192.168.1.213,"['22', '53', '80', '81', '1234', '2000', '2222', '8000', '8082', '8085', '9091']",MacenzisiPhone7.FLINTSTONE,E0:51:D8:10:46:6E,China Dragon Technology Limited,Linux 4.15 - 5.8
+192.168.1.218,[],,2C:AB:33:B8:DF:19,Texas Instruments,
+192.168.1.225,['80'],tado.FLINTSTONE,EC:E5:12:18:20:02,tado GmbH,Cisco SLM2008 or HP ProCurve 1800 switch
+192.168.1.231,"['49152', '62078']",,AA:F5:EB:24:47:A2,,Apple Mac OS X 10.11 (El Capitan) or iOS 12.4 - 13.6 (Darwin 15.6.0 - 19.6.0)
+192.168.1.245,['22'],TIN-Mesh29.FLINTSTONE,18:E8:29:C6:76:E2,Ubiquiti Networks,OpenWrt Kamikaze 7.09 (Linux 2.6.22)
+192.168.1.251,['49153'],android-6fa2b2fcea9d80ac.FLINTSTONE,40:CA:63:62:D4:2F,Seongji Industry Company,OSRAM Lightify ZigBee gateway
+192.168.3.1,"['22', '53', '80', '443']",,,,Linux 3.2 - 3.16
