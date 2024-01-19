@@ -1,10 +1,13 @@
+import datetime as dt
 import ipaddress
+import os
 
 import nmap3
 import pandas as pd
 from rich import print
 
 from arp import get_arp_data
+from extras import DATA_DIR
 
 arp_dataframe = get_arp_data()
 # addrs = arp_dataframe[arp_dataframe["Internet_Address"].str.startswith("192.168")][
@@ -20,16 +23,13 @@ data_list = []
 
 for addr in addrs:
     addr = str(addr)
-    try:
-        results = nmap.nmap_os_detection(addr)
-        data = results[addr]
-    except KeyError as e:
-        if "error" in results:
-            print(results["msg"])
-            exit()
-        else:
-            print(f"Error: Unable to scan '{addr}'")
-        continue
+    if not nmap.as_root():
+        print("Error: Insufficient privileges to run scan")
+        exit()
+
+    results = nmap.nmap_os_detection(addr)
+    data = results[addr]
+
     # Extract actively used ports
     active_ports = [port["portid"] for port in data["ports"] if port["state"] == "open"]
 
@@ -67,4 +67,5 @@ df = pd.DataFrame.from_records(data_list)
 print(df)
 
 # Save the dataframe to a CSV file
-df.to_csv("output.csv", index=False)
+file_name = os.path.join(DATA_DIR, f"{dt.datetime.now().timestamp()}-scan-output.csv")
+df.to_csv(file_name)

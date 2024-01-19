@@ -28,7 +28,7 @@ scanned_vendors = zip(get_scan_data()["macaddrvendor"], get_scan_data()["ip_addr
 matched_items = {}
 for scanned_vendor, scanned_ip in scanned_vendors:
     for known_vendor in known_vendors:
-        if type(scanned_vendor) is not str:
+        if not isinstance(scanned_vendor, str):
             continue
         similarity = fuzz.ratio(scanned_vendor, known_vendor)
         if similarity >= 80:
