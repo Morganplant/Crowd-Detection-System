@@ -10,18 +10,26 @@ arp_dataframe = get_arp_data()
 # addrs = arp_dataframe[arp_dataframe["Internet_Address"].str.startswith("192.168")][
 #     "Internet_Address"
 # ]
-addrs = list(ipaddress.ip_network("192.168.0.0/22"))
+addrs = list(ipaddress.ip_network("192.168.0.0/16"))
 
 # Use nmap to get additional information about the devices
-nmap = nmap3.Nmap(concurrency=10)  # Adjust the concurrency level as needed
+nmap = nmap3.Nmap()  # Adjust the concurrency level as needed
 
 # Create an empty list to store the extracted information
 data_list = []
 
 for addr in addrs:
-    results = nmap.nmap_os_detection(addr)
-    data = results[str(addr)]
-
+    addr = str(addr)
+    try:
+        results = nmap.nmap_os_detection(addr)
+        data = results[addr]
+    except KeyError as e:
+        if "error" in results:
+            print(results["msg"])
+            exit()
+        else:
+            print(f"Error: Unable to scan '{addr}'")
+        continue
     # Extract actively used ports
     active_ports = [port["portid"] for port in data["ports"] if port["state"] == "open"]
 

@@ -4,3 +4,4 @@
 src/venv/
 venv/
 src/__pycache__/
+*.csv
