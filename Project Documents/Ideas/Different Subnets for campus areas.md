@@ -1,0 +1,1 @@
+using different subnets for different areas of the campus would allow a system like Crowd Pulse to more easily scan the network for user devices and therefore be able to generate more accurate readings for crowd density

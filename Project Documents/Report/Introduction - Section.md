@@ -1,5 +1,10 @@
+---
+tags:
+  - "#G5038-Individual-Project"
+---
+
 > [!abstract]- Topics
-> ![[Pasted image 20240130121534.png]]
+> ![[Report Topics.pdf]]
 
 ## Introduction
 
@@ -9,7 +14,7 @@ The interface in which users will interact with the system will be designed with
 
 ## Project Description
 
-The overarching goal of this initiative is to fashion a modern and efficient solution for monitoring user presence on university campuses. The system aspires to offer the capability to monitor and analyse crowd presence and density across various university areas, employing either Wi-Fi technology or IoT devices. A pivotal focus lies in crafting a system that not only monitors but also enables users to visualize the data in a meaningful way. This visualization aspect is crucial for providing valuable insights into locations with high crowd density. Ultimately, the project seeks to enhance the safety and security of students and staff while optimizing resource allocation and space utilization within the university campus.
+The overarching goal of this project is to fashion a modern and efficient solution for monitoring crowd density and presence in a university campuses setting. The system aspires to offer the capability to monitor and analyse crowd presence and density across various university areas, employing either Wi-Fi technology or IoT devices. The main focus lies in crafting a system that not only monitors but also enables users to visualize the data in a meaningful way. This visualization aspect is crucial for providing valuable insights into locations with high crowd density. Ultimately, the project seeks to enhance the safety and security of students and staff while optimizing resource allocation and space utilization within the university campus.
 
 ### Objectives
 
@@ -23,11 +28,13 @@ Expanding on the user-friendly interface, it's crucial to ensure that the design
 
 ## Motivations
 
-The reason that I wanted to design and implement this kind of system is multi-faceted, I have played many games that revolve around resource management and allocation[5], which has somewhat shaped me into a more efficiency focused person. My second reason is for Academic Growth and Problem Solving, I often find myself looking for the next problem to solve and the opportunity to create a system that not only will solve an issue that I've run into many times but one that solves an issue and also could provide a safer environment for protests and the whole of campus during epidemics was too tempting.
+My reason is for Academic Growth and Problem Solving, I often find myself looking for the next problem to solve and at the time of COVID-19 it seemed appropriate to develop some form of detection system, to help avoid infection, This would help in the case that an epidemic or pandemic where to occur again, as the system would be able to tell where the busiest areas are and notify users, this means that users could then avoid those areas, to avoid infection.
+
+This system would also be a great advantage to avoid queues in stores / cafes / other areas, it would allow the user to locate busy areas and then be able to plan around that new data, currently there is no such system that helps with this hence why I thought it would be an interesting and challenging problem to solve.
 
 ## Ethics
 
-During development of Crowd Pulse it is important to consider the ethical concerns and implement strategies to address these concerns such as privacy and data security.
+During development of Crowd Pulse it is important to consider the ethical concerns and implement strategies to address these concerns such as privacy and data security. However Ethics will be talked about in much more detail later in this report.
 
 ### Privacy
 
@@ -53,5 +60,9 @@ The scope of the Crowd Pulse project encompasses the design, development, and de
 Moreover, the project scope extends to considerations of scalability and adaptability, ensuring that the system can be tailored to different university areas and potentially extended to other public spaces. The project will also delve into the integration of security and privacy measures, ethical and legal compliance, and the potential for future enhancements and expansions of the system. Clear delineation of the project scope is fundamental to aligning expectations, resources, and deliverables throughout the development and implementation phases.
 
 ### Assumptions
+
+> [!error]- Each user will have a smartphone / similar device
+
+> [!warning]- The user's Device will be discoverable
 
 #continue-later

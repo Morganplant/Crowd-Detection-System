@@ -60,3 +60,6 @@ ip_address,active_ports,hostname,macaddress,macaddrvendor,likely_os
 192.168.1.245,['22'],TIN-Mesh29.FLINTSTONE,18:E8:29:C6:76:E2,Ubiquiti Networks,OpenWrt Kamikaze 7.09 (Linux 2.6.22)
 192.168.1.251,['49153'],android-6fa2b2fcea9d80ac.FLINTSTONE,40:CA:63:62:D4:2F,Seongji Industry Company,OSRAM Lightify ZigBee gateway
 192.168.3.1,"['22', '53', '80', '443']",,,,Linux 3.2 - 3.16
+
+#TODO instead od CSV files for the output of data use a Database of some sort
+# Potentially use different tables for different subnets

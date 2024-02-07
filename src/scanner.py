@@ -13,6 +13,7 @@ arp_dataframe = get_arp_data()
 # addrs = arp_dataframe[arp_dataframe["Internet_Address"].str.startswith("192.168")][
 #     "Internet_Address"
 # ]
+# TODO ping sweep before to identify devices that are down/don't exist and need to be skipped
 addrs = list(ipaddress.ip_network("192.168.0.0/16"))
 
 # Use nmap to get additional information about the devices
