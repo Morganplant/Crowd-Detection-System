@@ -1,1 +1,0 @@
-Every so often we scan the network at night to get a baseline of the networking devices, switches, router, Access points, etc, the networking infrastructure, this can then be ignored in subsequent scans to detect crowds.
