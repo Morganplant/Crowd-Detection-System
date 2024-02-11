@@ -1,0 +1,3 @@
+[submodule "Crowd-Detection-System-Docs"]
+	path = Crowd-Detection-System-Docs
+	url = .\\Crowd-Detection-System-Docs\\
